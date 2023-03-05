@@ -9,6 +9,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #b7c2ba;
 }
 
 #navbar {
@@ -24,6 +25,8 @@ body {
 .card-header {
     background-color: var(--primary);
     color: var(--secondary);
+    min-height: 50px;
+    max-height: 90px;
 }
 
 .card-body {
