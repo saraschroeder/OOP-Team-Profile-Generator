@@ -1,11 +1,19 @@
 const Manager = require('../lib/Manager');
 
-test('creates a Manager object', () => {
-    const manager = new Manager('Madison', 4, 'madison@gmail.com', 4);
-    expect(manager.officeNumber).toEqual(expect.any(Number));
+test("Can create an office number.", () => {
+    const testOfficeNumber = 2;
+    const employeeInstance = new Manager("Madison", 2, "madison@gmail.com", testOfficeNumber);
+    expect(employeeInstance.officeNumber).toBe(testOfficeNumber);
 });
 
-test('gets role of employee', () => {
-    const manager = new Manager('Madison', 4, 'madison@gmail.com');
-    expect(manager.getRole()).toEqual("Manager");
+test("Testing officeNumber will return office number.", () => {
+    const testOfficeNumber = 2;
+    const employeeInstance = new Manager("Madison", 2, "madison@gmail.com", testOfficeNumber);
+    expect(employeeInstance.getOfficeNumber()).toBe(testOfficeNumber);
+});
+
+test("Testing role.", () => {
+    const returnValue = "Manager";
+    const employeeInstance = new Manager("Madison", 2, "madison@gmail.com", 2);
+    expect(employeeInstance.getRole()).toBe(returnValue);
 });
