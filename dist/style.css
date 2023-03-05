@@ -1,41 +1,11 @@
-* {
-    box-sizing: border-box;
+.jumbrotron {
+    border-radius: 0;
 }
-
-:root {
-    --primary: lightslategray;
-    --secondary: white;
+.employee-card {
+    box-shadow: 5px 5px 5px gray;
+    margin: 1rem;
+    border: none;
 }
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #b7c2ba;
-}
-
-#navbar {
-    background-color: var(--primary);
-    color: var(--secondary);
-    font-size: 50px;
-}
-
-.navbar-brand {
-    font-size: 50px;
-}
-
-.card-header {
-    background-color: var(--primary);
-    color: var(--secondary);
-    min-height: 50px;
-    max-height: 90px;
-}
-
 .card-body {
-    background-color: var(--secondary);
-    color: var(--primary);
-}
-
-.container {
-    margin: 100px auto;
-    justify-content: space-evenly;
-    display: flex;
+    background-color: rgb(240, 240, 240);
 }
