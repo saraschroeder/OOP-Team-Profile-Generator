@@ -2,7 +2,7 @@
 
 ## Description
 
-In this project I created 
+I created this application to generate a team profile based on the user input. When the user inputs information, the information will be inputted on a newly created html page along with a style sheet. 
 
 [Link to deployed application]()
 
