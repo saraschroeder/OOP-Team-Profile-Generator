@@ -20,6 +20,8 @@ npm i inquirer@8.2.4
 ![alt text](./assets/Screenshot2.png)
 ![alt text](./assets/Screenshot3.png)
 
+[walkthrough](file:///Users/saraschroeder/Desktop/Untitled_%20Mar%205,%202023%208_14%20PM.webm)
+
 ## Credits
 
 N/A
